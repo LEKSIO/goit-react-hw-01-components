@@ -1,5 +1,7 @@
 import { Profile } from './Profile/Profile.jsx';
 
+import user from '../data/user.json';
+
 const App = () => (
   <div className="app-wrapper">
     <Profile
