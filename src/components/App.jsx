@@ -11,6 +11,9 @@ const App = () => (
       avatar={user.avatar}
       stats={user.stats}
     />
+    <Statistics stats={data} title="Upload stats" />
+    <FriendList friends={friends} />
+    <TransactionHistory items={transactions} />
   </div>
 );
 
