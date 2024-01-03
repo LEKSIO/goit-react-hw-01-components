@@ -20,4 +20,5 @@ const TransactionHistory = ({ items }) => (
     </tbody>
   </table>
 );
+
 export { TransactionHistory };
